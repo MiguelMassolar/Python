@@ -1,6 +1,7 @@
 #Jogo ensinado por (https://www.youtube.com/@ProgramadorSagaz) Programador Sagaz no YouTube!!!
 import pygame, random
 from pygame.locals import *
+from sys import exit
 
 #Isto vai alinhar a maçã e a cobra
 def on_grid_random():
@@ -42,6 +43,7 @@ while True:
     for event in pygame.event.get():
         if event.type == QUIT:
             pygame.quit()
+            exit()
         
         #Controles do Jogo!
         if event.type == KEYDOWN:
