@@ -1,1 +1,0 @@
-python -m pysimplegui-exemaker.pysimplegui-exemaker Colar este comando no CMD!
