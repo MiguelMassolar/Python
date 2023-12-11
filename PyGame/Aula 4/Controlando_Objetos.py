@@ -22,12 +22,13 @@ while True:
             exit()
         
         #Controles
+        #Lembre que o cartesiano esta de ponta cabeça!
         '''if event.type == KEYDOWN:
             if event.key == K_LEFT:
                 x = x - 20
             if event.key == K_RIGHT:
                 x = x + 20
-            if event.key == K_UP:#Lembre que o cartesiano esta de ponta cabeça!
+            if event.key == K_UP:
                 y = y - 20
             if event.key == K_DOWN:
                 y = y + 20'''
